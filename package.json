@@ -1,0 +1,29 @@
+{
+  "name": "@fishawack/boilerplate",
+  "version": "1.0.0",
+  "description": "The base code (DO NOT BUMP)",
+  "vars": {
+    "config": "--prefix node_modules/@fishawack/config-grunt/"
+  },
+  "scripts": {
+    "start": "npm start $npm_package_vars_config",
+    "setup": "npm install --no-save && npm run content",
+    "deploy": "npm run deploy $npm_package_vars_config",
+    "deploy-s": "npm run deploy-s $npm_package_vars_config",
+    "production": "npm run production $npm_package_vars_config",
+    "content": "npm run content $npm_package_vars_config",
+    "test": "npm test $npm_package_vars_config"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fishawack/config-grunt": "4.1.13"
+  },
+  "dependencies": {
+    "breakpoint-sass": "2.7.1",
+    "fastclick": "1.0.6",
+    "@fishawack/lab-d3": "2.1.7",
+    "@fishawack/lab-ui": "9.0.5",
+    "normalize-scss": "7.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "attributes": {
+	    "title": "Basic",
+	    "googleTrackingID": null,
+	    "root": "_Output",
+	    "repo": "boilerplate/boilerplate",
+	    "electron": false,
+	    "modernizr": [
+	        "flexbox",
+	        "csscalc"
+	    ],
+	    "uncss": [
+	        "<%= root %>/*.html"
+	    ],
+	    "template": {},
+	    "toggle": {}
+	},
+	"content": {
+		
+	}
+}
